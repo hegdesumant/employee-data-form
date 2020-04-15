@@ -3,7 +3,7 @@ import './employee_form.style.scss'
 import { formHeading, formFields, buttonText } from '../../constants'
 import DatePicker from 'react-date-picker';
 import add_icon from '../../assets/add_icon.svg'
-import ButtonComponent from '../button'
+import ButtonComponent from '../button/button'
 import { setEmployeeState } from '../../redux/actions'
 import { useDispatch } from "react-redux";
 

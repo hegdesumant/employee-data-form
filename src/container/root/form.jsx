@@ -2,7 +2,7 @@ import React from 'react'
 import './form.style.scss'
 import EmployeeDetailsForm from '../components/form/employee_form'
 import ReviewComponent from '../components/review/review'
-import ButtonComponent from '../components/button'
+import ButtonComponent from '../components/button/button'
 import { clearEmployeeState } from '../redux/actions'
 
 import { useSelector, useDispatch } from 'react-redux'
