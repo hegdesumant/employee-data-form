@@ -1,0 +1,4 @@
+export const actions = {
+    EMPLOYEE_STATE: "EMPLOYEE_STATE",
+    CLEAR_EMPLOYEE_STATE: "CLEAR_EMPLOYEE_STATE"
+}

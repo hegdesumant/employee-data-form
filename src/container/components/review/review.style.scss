@@ -1,0 +1,42 @@
+.review-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    background-color: lightgray;
+    border: solid thin black;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+
+    .review-layout-display-area {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        // background-color: lightgray;
+        // border: solid thin black;
+        margin: 1em;
+        // padding: 1em;
+
+        .field-elements-holder {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: flex-start;
+
+            .field-label {
+                display: flex;
+                width: 15%;
+                flex-direction: column;
+            }
+
+            .field-elements {
+                display: flex;
+                width: 85%;
+                flex-direction: column;
+            }
+        }
+    }
+}
